@@ -11,65 +11,96 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/black"
-        android:text="Hola Mundo!"
-        android:textAlignment="textStart"
-        android:textColor="#59FF00"
-        android:textSize="30sp"
+        android:text="Título"
+        android:textAlignment="center"
+        android:textColor="#686868"
+        android:textSize="40sp" />
 
-
-        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subtítulo"
+        android:textAlignment="center"
+        android:textColor="#939393"
+        android:textSize="30sp" />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_marginStart="5dp"
+        android:orientation="horizontal"
         tools:context=".MainActivity">
 
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/black"
-            android:text="Hola Mundo!"
+            android:layout_marginEnd="10dp"
+            android:text="Opción 1"
             android:textAlignment="textStart"
-            android:textColor="#59FF00"
-            android:textSize="30sp"
-
-
-            />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/black"
-            android:text="Hola Mundo!"
-            android:textAlignment="center"
-            android:textColor="#FF0000"
+            android:textColor="#939393"
             android:textSize="30sp" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/black"
-            android:text="Hola Mundo!"
-            android:textAlignment="textEnd"
-            android:textColor="#0022FF"
+            android:layout_marginEnd="10dp"
+            android:text="Opción 2"
+            android:textAlignment="center"
+            android:textColor="#939393"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opción 3"
+            android:textAlignment="center"
+            android:textColor="#939393"
             android:textSize="30sp" />
 
 
     </LinearLayout>
 
-    <TextView
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/black"
-        android:text="Hola Mundo!"
-        android:textAlignment="textEnd"
-        android:textColor="#0022FF"
-        android:textSize="30sp" />
+        android:layout_marginStart="25dp"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:text="Texto 1"
+            android:textAlignment="textStart"
+            android:textColor="#939393"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20sp"
+            android:text="Texto 2"
+            android:textAlignment="center"
+            android:textColor="#939393"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="texto 3"
+            android:textAlignment="center"
+            android:textColor="#939393"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
 
 
 </LinearLayout>
